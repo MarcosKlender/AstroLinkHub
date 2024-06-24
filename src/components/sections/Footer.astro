@@ -1,0 +1,36 @@
+---
+import { footer } from "index.json";
+import Section from "@/components/Section.astro";
+
+const { copyright, url } = footer;
+---
+
+<Section>
+  <footer>
+    <a
+      href={url}
+      title={`${copyright}`}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      {copyright}
+    </a>
+  </footer>
+</Section>
+
+<style>
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  footer a {
+    color: #444;
+    font-weight: 500;
+    font-size: 0.75rem;
+    text-wrap: balance;
+  }
+</style>

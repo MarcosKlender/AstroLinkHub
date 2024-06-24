@@ -1,0 +1,85 @@
+{
+  "html": {
+    "lang": "en",
+    "title": "LinkHub - Marcos Carrasco",
+    "description": "Follow me on all my socials",
+    "favicon": "/favicon.svg"
+  },
+  "background": {
+    "solidColor": "#FFF",
+    "gradientColor": {
+      "firstColor": null,
+      "secondColor": null
+    }
+  },
+  "header": {
+    "image": "/profile.webp",
+    "alt": "Marcos Carrasco Profile Picture",
+    "title": "Marcos Carrasco",
+    "description": "Full Stack Developer",
+    "textColor": "#000"
+  },
+  "socials": [
+    {
+      "network": "WhatsApp",
+      "username": "marcosklender",
+      "url": "https://wa.me"
+    },
+    {
+      "network": "Facebook",
+      "username": "marcosklender",
+      "url": "https://www.facebook.com/marcosklender"
+    },
+    {
+      "network": "Instagram",
+      "username": "marcosklender",
+      "url": "https://www.instagram.com/marcosklender"
+    },
+    {
+      "network": "TikTok",
+      "username": "marcosklender",
+      "url": "https://www.tiktok.com/@marcosklender"
+    }
+  ],
+  "featured": [
+    {
+      "network": "WhatsApp",
+      "url": "https://wa.me",
+      "title": "Contact me anytime",
+      "textColor": "#FFF",
+      "backgroundImage": "https://ugc.production.linktr.ee/f1616790-3bf4-4071-be1a-292f89425501_Catalogo.webp?io=true&size=thumbnail-feature-v1_0",
+      "backgroundColor": "#000",
+      "borderRadius": ".75rem"
+    }
+  ],
+  "buttons": [
+    {
+      "network": "Instagram",
+      "url": "https://wa.me",
+      "title": "Follow me on Instagram",
+      "textColor": "#FFF",
+      "backgroundColor": "#000",
+      "borderRadius": ".75rem"
+    },
+    {
+      "network": "Facebook",
+      "url": "https://wa.me",
+      "title": "Follow me on Facebook",
+      "textColor": "#FFF",
+      "backgroundColor": "#000",
+      "borderRadius": ".75rem"
+    },
+    {
+      "network": "TikTok",
+      "url": "https://wa.me",
+      "title": "Follow me on TikTok",
+      "textColor": "#FFF",
+      "backgroundColor": "#000",
+      "borderRadius": ".75rem"
+    }
+  ],
+  "footer": {
+    "copyright": "Made with 🍺 by MarcosKlender 🇪🇨",
+    "url": "https://marcosklender.com"
+  }
+}

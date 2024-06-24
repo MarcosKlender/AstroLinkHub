@@ -1,0 +1,27 @@
+---
+import Layout from "@/layouts/Layout.astro";
+
+import Header from "@/components/sections/Header.astro";
+import Socials from "@/components/sections/Socials.astro";
+import Featured from "@/components/sections/Featured.astro";
+import Buttons from "@/components/sections/Buttons.astro";
+import Footer from "@/components/sections/Footer.astro";
+---
+
+<Layout title="AstroLinkHub">
+  <main>
+    <Header />
+    <Socials />
+    <Featured />
+    <Buttons />
+    <Footer />
+  </main>
+</Layout>
+
+<style>
+  main {
+    padding: 2rem 6rem;
+    margin: auto;
+    width: 100%;
+  }
+</style>

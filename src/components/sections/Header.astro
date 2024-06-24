@@ -1,0 +1,41 @@
+---
+import { header } from "index.json";
+import Section from "@/components/Section.astro";
+
+const { title, description, image, alt, textColor } = header;
+---
+
+<Section>
+  <div class="container" style={`color: ${textColor};`}>
+    <img src=`${image}` alt=`${alt}` />
+    <h1>{title}</h1>
+    <h2>{description}</h2>
+  </div>
+</Section>
+
+<style>
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-wrap: pretty;
+  }
+
+  img {
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    width: 128px;
+    border-radius: 16px;
+  }
+</style>

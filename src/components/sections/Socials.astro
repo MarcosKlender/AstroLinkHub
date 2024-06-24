@@ -1,0 +1,67 @@
+---
+import { socials } from "index.json";
+import Section from "@/components/Section.astro";
+
+import Facebook from "@/icons/Facebook.astro";
+import Instagram from "@/icons/Instagram.astro";
+import TikTok from "@/icons/TikTok.astro";
+import WhatsApp from "@/icons/WhatsApp.astro";
+import Mail from "@/icons/Mail.astro";
+
+const SOCIAL_ICONS: Record<string, any> = {
+  Facebook,
+  Instagram,
+  TikTok,
+  WhatsApp,
+  Mail,
+};
+---
+
+<Section>
+  <div class="container">
+    {
+      socials.map(({ network, username, url }) => {
+        const Icon = SOCIAL_ICONS[network];
+
+        return (
+          <a
+            href={url}
+            title={`Visita el perfil de ${username} en ${network}`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Icon />
+          </a>
+        );
+      })
+    }
+  </div>
+</Section>
+
+<style>
+  .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .container a {
+    color: #777;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #eee;
+    padding: 4px;
+    height: 32px;
+    width: 32px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+  }
+
+  .container a:hover {
+    background: #eee;
+    border: 1px solid #ddd;
+  }
+</style>

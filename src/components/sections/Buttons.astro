@@ -1,0 +1,64 @@
+---
+import { buttons } from "index.json";
+import Section from "@/components/Section.astro";
+
+import Facebook from "@/icons/Facebook.astro";
+import Instagram from "@/icons/Instagram.astro";
+import TikTok from "@/icons/TikTok.astro";
+import WhatsApp from "@/icons/WhatsApp.astro";
+import Mail from "@/icons/Mail.astro";
+
+const SOCIAL_ICONS: Record<string, any> = {
+  Facebook,
+  Instagram,
+  TikTok,
+  WhatsApp,
+  Mail,
+};
+---
+
+<Section>
+  <div class="container">
+    {
+      buttons.map(
+        ({ network, url, title, textColor, backgroundColor, borderRadius }) => {
+          const Icon = SOCIAL_ICONS[network];
+
+          return (
+            <a
+              href={url}
+              class="button"
+              target="_blank"
+              style={`
+                background-color: ${backgroundColor};
+                color:${textColor};
+                border-radius:${borderRadius};`}
+            >
+              <Icon />
+              {title}
+            </a>
+          );
+        }
+      )
+    }
+  </div>
+</Section>
+
+<style>
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+    height: 4rem;
+    font-size: 16px;
+  }
+</style>
