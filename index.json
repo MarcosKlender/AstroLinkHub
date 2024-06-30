@@ -6,18 +6,15 @@
     "favicon": "/favicon.svg"
   },
   "background": {
-    "solidColor": "#FFF",
-    "gradientColor": {
-      "firstColor": null,
-      "secondColor": null
-    }
+    "firstColor": "#3266A4",
+    "secondColor": "#61CFD2"
   },
   "header": {
     "image": "/profile.webp",
     "alt": "Marcos Carrasco Profile Picture",
     "title": "Marcos Carrasco",
     "description": "Full Stack Developer",
-    "textColor": "#000"
+    "textColor": "white"
   },
   "socials": [
     {

@@ -2,15 +2,11 @@
 import { html, background } from "index.json";
 
 const { lang, title, description, favicon } = html;
-const { solidColor } = background;
+const { firstColor, secondColor } = background;
 ---
 
 <!doctype html>
-<html
-  lang={`${lang}`}
-  style={`
-  background-color: ${solidColor};`}
->
+<html lang={`${lang}`}>
   <head>
     <meta charset="UTF-8" />
     <meta name="description" content={`${description}`} />
@@ -23,22 +19,22 @@ const { solidColor } = background;
     <slot />
   </body>
 </html>
-<style is:global>
+<style is:global define:vars={{ firstColor, secondColor }}>
+  @import url("https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap");
+
   html {
-    font-family:
-      Menlo,
-      Monaco,
-      Lucida Console,
-      "Courier New",
-      Courier,
-      monospace;
-    letter-spacing: -0.025rem;
+    font-family: "Onest", sans-serif;
   }
 
   body,
   figure {
+    background: linear-gradient(var(--firstColor), var(--secondColor));
+    min-height: 100vh;
+    width: 100%;
     margin: 0;
-    padding: 0;
+    padding: 2rem 0 2rem 0;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   a {
@@ -62,18 +58,6 @@ const { solidColor } = background;
   h3,
   h4 {
     margin: 0;
-    font-family:
-      system-ui,
-      -apple-system,
-      BlinkMacSystemFont,
-      "Segoe UI",
-      Roboto,
-      Oxygen,
-      Ubuntu,
-      Cantarell,
-      "Open Sans",
-      "Helvetica Neue",
-      sans-serif;
   }
 
   p {
@@ -82,5 +66,11 @@ const { solidColor } = background;
     line-height: 1.5;
     margin: 0;
     text-wrap: pretty;
+  }
+
+  @media only screen and (max-width: 768px) {
+    body {
+      width: 80%;
+    }
   }
 </style>

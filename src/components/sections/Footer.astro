@@ -8,6 +8,7 @@ const { copyright, url } = footer;
 <Section>
   <footer>
     <a
+      class="button"
       href={url}
       title={`${copyright}`}
       target="_blank"
@@ -29,8 +30,46 @@ const { copyright, url } = footer;
 
   footer a {
     color: #444;
-    font-weight: 500;
+  }
+
+  .button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #F6F9FE;
+    border-radius: 24px;
+    border-style: none;
+    box-shadow:
+      rgba(0, 0, 0, 0.2) 0 3px 5px -1px,
+      rgba(0, 0, 0, 0.14) 0 6px 10px 0,
+      rgba(0, 0, 0, 0.12) 0 1px 18px 0;
+    box-sizing: border-box;
+    color: #3c4043;
+    fill: currentcolor;
     font-size: 0.75rem;
+    font-weight: 500;
     text-wrap: balance;
+    height: 48px;
+    line-height: normal;
+    max-width: 100%;
+    overflow: visible;
+    padding: 2px 24px;
+    position: relative;
+    text-transform: none;
+    transition:
+      box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1),
+      opacity 15ms linear 30ms,
+      transform 270ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: auto;
+    will-change: transform, opacity;
+    z-index: 0;
+  }
+
+  .button:hover {
+    background: #FFF;
   }
 </style>
