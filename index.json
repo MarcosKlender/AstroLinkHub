@@ -28,14 +28,14 @@
       "url": "https://www.linkedin.com/in/marcosklender/?locale=en_US"
     },
     {
-      "network": "Mail",
-      "username": "marcosklender",
-      "url": "mailto:marcosklender@gmail.com"
-    },
-    {
       "network": "Instagram",
       "username": "marcosklender",
       "url": "https://www.instagram.com/marcosklender"
+    },
+    {
+      "network": "Mail",
+      "username": "marcosklender",
+      "url": "mailto:marcosklender@gmail.com"
     }
   ],
   "featured": [
@@ -53,15 +53,7 @@
     {
       "network": "LinkedIn",
       "url": "https://www.linkedin.com/in/marcosklender/?locale=en_US",
-      "title": "Reach me through my LinkedIn",
-      "textColor": "#FFF",
-      "backgroundColor": "#000",
-      "borderRadius": ".75rem"
-    },
-    {
-      "network": "Mail",
-      "url": "mailto:marcosklender@gmail.com",
-      "title": "Contact me through my email",
+      "title": "Let's connect on LinkedIn",
       "textColor": "#FFF",
       "backgroundColor": "#000",
       "borderRadius": ".75rem"
@@ -70,6 +62,14 @@
       "network": "Instagram",
       "url": "https://www.instagram.com/marcosklender",
       "title": "Follow me on Instagram",
+      "textColor": "#FFF",
+      "backgroundColor": "#000",
+      "borderRadius": ".75rem"
+    },
+    {
+      "network": "Mail",
+      "url": "mailto:marcosklender@gmail.com",
+      "title": "Contact me anytime",
       "textColor": "#FFF",
       "backgroundColor": "#000",
       "borderRadius": ".75rem"
