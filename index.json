@@ -18,58 +18,58 @@
   },
   "socials": [
     {
-      "network": "YouTube",
+      "network": "GitHub",
       "username": "marcosklender",
-      "url": "https://wa.me"
+      "url": "https://github.com/marcosklender"
     },
     {
-      "network": "TikTok",
+      "network": "LinkedIn",
       "username": "marcosklender",
-      "url": "https://www.facebook.com/marcosklender"
+      "url": "https://www.linkedin.com/in/marcosklender/?locale=en_US"
     },
     {
-      "network": "WhatsApp",
+      "network": "Mail",
+      "username": "marcosklender",
+      "url": "mailto:marcosklender@gmail.com"
+    },
+    {
+      "network": "Instagram",
       "username": "marcosklender",
       "url": "https://www.instagram.com/marcosklender"
-    },
-    {
-      "network": "X",
-      "username": "marcosklender",
-      "url": "https://www.tiktok.com/@marcosklender"
     }
   ],
   "featured": [
     {
-      "network": "WhatsApp",
-      "url": "https://wa.me",
-      "title": "Contact me anytime",
+      "network": "GitHub",
+      "url": "https://github.com/MarcosKlender/AstroLinkHub",
+      "title": "Use this template and star it (:",
       "textColor": "#FFF",
-      "backgroundImage": "https://ugc.production.linktr.ee/f1616790-3bf4-4071-be1a-292f89425501_Catalogo.webp?io=true&size=thumbnail-feature-v1_0",
+      "backgroundImage": "https://githubuniverse.com/og-image-24.jpg",
       "backgroundColor": "#000",
       "borderRadius": ".75rem"
     }
   ],
   "buttons": [
     {
+      "network": "LinkedIn",
+      "url": "https://www.linkedin.com/in/marcosklender/?locale=en_US",
+      "title": "Reach me through my LinkedIn",
+      "textColor": "#FFF",
+      "backgroundColor": "#000",
+      "borderRadius": ".75rem"
+    },
+    {
+      "network": "Mail",
+      "url": "mailto:marcosklender@gmail.com",
+      "title": "Contact me through my email",
+      "textColor": "#FFF",
+      "backgroundColor": "#000",
+      "borderRadius": ".75rem"
+    },
+    {
       "network": "Instagram",
-      "url": "https://wa.me",
+      "url": "https://www.instagram.com/marcosklender",
       "title": "Follow me on Instagram",
-      "textColor": "#FFF",
-      "backgroundColor": "#000",
-      "borderRadius": ".75rem"
-    },
-    {
-      "network": "Facebook",
-      "url": "https://wa.me",
-      "title": "Follow me on Facebook",
-      "textColor": "#FFF",
-      "backgroundColor": "#000",
-      "borderRadius": ".75rem"
-    },
-    {
-      "network": "TikTok",
-      "url": "https://wa.me",
-      "title": "Follow me on TikTok",
       "textColor": "#FFF",
       "backgroundColor": "#000",
       "borderRadius": ".75rem"
