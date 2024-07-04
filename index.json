@@ -11,29 +11,29 @@
   },
   "header": {
     "image": "/profile.webp",
-    "alt": "Marcos Carrasco Profile Picture",
+    "alt": "The owner of this website.",
     "title": "Marcos Carrasco",
     "description": "Full Stack Developer",
     "textColor": "white"
   },
   "socials": [
     {
-      "network": "WhatsApp",
+      "network": "YouTube",
       "username": "marcosklender",
       "url": "https://wa.me"
     },
     {
-      "network": "Facebook",
+      "network": "TikTok",
       "username": "marcosklender",
       "url": "https://www.facebook.com/marcosklender"
     },
     {
-      "network": "Instagram",
+      "network": "WhatsApp",
       "username": "marcosklender",
       "url": "https://www.instagram.com/marcosklender"
     },
     {
-      "network": "TikTok",
+      "network": "X",
       "username": "marcosklender",
       "url": "https://www.tiktok.com/@marcosklender"
     }
