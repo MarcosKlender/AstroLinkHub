@@ -45,7 +45,7 @@
       "title": "Use this template and star it (:",
       "textColor": "#FFF",
       "backgroundImage": "https://githubuniverse.com/og-image-24.jpg",
-      "backgroundColor": "#000",
+      "backgroundColor": null,
       "borderRadius": ".75rem"
     }
   ],
