@@ -3,12 +3,15 @@
 ![Astro](https://img.shields.io/badge/Astro-0C1222?style=for-the-badge&logo=astro&logoColor=FDFDFE)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-  
+![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
+
+
 # AstroLinkHub
 
-Minimalist Linktree alternative using Astro 4. 
+Open source links page, customizable via JSON. Made with Astro 4.
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+![AstroLinkHub Screeshot](/public/screenshot.webp)
+
 
 ## Table of Contents
 
@@ -30,70 +33,60 @@ Minimalist Linktree alternative using Astro 4.
 
 ## About The Project
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+For a while I was thinking about how popular link pages have become, both for companies and individuals. I've never liked the "free" solutions that many companies provide where they self-promote on every page you create.
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+That's exactly why I created AstroLinkHub! With this template you will be able to:
+- Create your very own links page for FREE.
+- Use the colors you want and give yourself all the credits for it.
+- And most importantly, update it very easily using JSON. 
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right"><a href="#readme-top">back to top ⬆︎</a></p>
 
 
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
+- **Node.js** -> `v18.17.1` or `v20.3.0` or higher. (`v19` is not supported)
+- **Visual Studio Code** -> with the [Official Astro Extension](https://marketplace.visualstudio.com/items?itemName=astro-build.astro-vscode).
+
+Personally I prefer using `pnpm` instead `npm` and to install it you can use:
+
   ```sh
-  npm install npm@latest -g
+  npm install -g pnpm
   ```
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone this repo to your computer:
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone git@github.com:MarcosKlender/AstroLinkHub.git
    ```
-3. Install NPM packages
+2. Install Astro dependencies:
    ```sh
-   npm install
+   cd AstroLinkHub
+   pnpm install
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+3. Run the Astro dev server:
+   ```sh
+   pnpm dev
    ```
    
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right"><a href="#readme-top">back to top ⬆︎</a></p>
 
 
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "feature".
+**Don't forget to give the project a star!** ⭐
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right"><a href="#readme-top">back to top ⬆︎</a></p>
 
 
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the MIT License. `Open Source` is pretty self-descriptive.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right"><a href="#readme-top">back to top ⬆︎</a></p>
