@@ -36,6 +36,11 @@
       "network": "Mail",
       "username": "marcosklender",
       "url": "mailto:marcosklender@gmail.com"
+    },
+    {
+      "network": "Link",
+      "username": "JSONLinks",
+      "url": "https://jsonlinks.netlify.app/templates"
     }
   ],
   "featured": [
@@ -70,6 +75,14 @@
       "network": "Mail",
       "url": "mailto:marcosklender@gmail.com",
       "title": "Contact me anytime",
+      "textColor": "#FFF",
+      "backgroundColor": "#000",
+      "borderRadius": ".75rem"
+    },
+    {
+      "network": "Link",
+      "url": "https://jsonlinks.netlify.app/templates",
+      "title": "See more templates",
       "textColor": "#FFF",
       "backgroundColor": "#000",
       "borderRadius": ".75rem"
