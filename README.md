@@ -4,6 +4,8 @@
 
 ![Astro](https://astro.build/assets/press/astro-icon-light-gradient.svg)
 
+[![Available at](https://img.shields.io/badge/Available%20at-Astro%20Themes-purple?style=for-the-badge&link=https://astro.build/themes/details/astrolinkhub/)](https://astro.build/themes/details/astrolinkhub/)
+
 </div>
 
 <h1 align="center">AstroLinkHub</h1>
@@ -59,6 +61,9 @@ That's exactly why I created AstroLinkHub! With this template you will be able t
 
 
 ## Getting Started
+
+> [!IMPORTANT]
+> I'm glad to announce that this project is available on [Astro Themes!](https://astro.build/themes/details/astrolinkhub/) 🚀
 
 ### Prerequisites
 
