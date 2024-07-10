@@ -19,7 +19,7 @@ Open source links page, customizable via JSON. Made with Astro 4.
 
 </div>
 
-![AstroLinkHub Screeshot](/public/screenshot.webp)
+![AstroLinkHub Screenshot](/public/screenshot.webp)
 
 
 ## Table of Contents
@@ -35,7 +35,12 @@ Open source links page, customizable via JSON. Made with Astro 4.
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#json">JSON</a></li>
+    <li>
+      <a href="#json">JSON</a>
+      <ul>
+        <li><a href="#icons">Icons</a></li>
+      </ul>
+    </li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
   </ol>
@@ -97,7 +102,7 @@ The best part of AstroLinkHub is that you can modify every aspect of the website
 - **buttons** -> Add more buttons with your socials URL (see the networks available).
 - **footer** -> Edit the copyright and URL of the developer (Made just for you 😎).
 
-> **Networks/Icons Available**
+### Icons
 
 Just edit the key `network` with any of the following values (case-sensitive):
 
@@ -105,6 +110,7 @@ Just edit the key `network` with any of the following values (case-sensitive):
 - Facebook
 - GitHub
 - Instagram
+- Link
 - LinkedIn
 - Mail
 - Map
@@ -115,6 +121,9 @@ Just edit the key `network` with any of the following values (case-sensitive):
 - WhatsApp
 - X
 - YouTube
+
+> [!NOTE]
+> If you need more open-source icons, visit: [Tabler Icons](https://tabler.io/icons)
 
 <p align="right"><a href="#readme-top">Back to top ⬆️</a></p>
 
