@@ -1,13 +1,13 @@
 {
   "html": {
     "lang": "en",
-    "title": "LinkHub - Marcos Carrasco",
+    "title": "Marcos Carrasco",
     "description": "Follow me on all my socials",
     "favicon": "/favicon.svg"
   },
   "background": {
-    "firstColor": "#3266A4",
-    "secondColor": "#61CFD2"
+    "firstColor": "#454281",
+    "secondColor": "#B38AC2"
   },
   "header": {
     "image": "/profile.webp",
