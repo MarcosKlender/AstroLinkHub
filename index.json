@@ -10,37 +10,27 @@
     "secondColor": "#B38AC2"
   },
   "header": {
-    "image": "/profile.webp",
-    "alt": "The owner of this website.",
-    "title": "Marcos Carrasco",
-    "description": "Full Stack Developer",
+    "alt": "Linkuri",
+    "title": "eu, Dima",
+    "description": "prietenul tau cel mai bun",
     "textColor": "white"
   },
   "socials": [
-    {
-      "network": "GitHub",
-      "username": "marcosklender",
-      "url": "https://github.com/marcosklender"
-    },
-    {
-      "network": "LinkedIn",
-      "username": "marcosklender",
-      "url": "https://www.linkedin.com/in/marcosklender/?locale=en_US"
-    },
+
     {
       "network": "Instagram",
-      "username": "marcosklender",
-      "url": "https://www.instagram.com/marcosklender"
+      "username": "dumitrw.png",
+      "url": "https://www.instagram.com/dumitrw.png"
     },
     {
       "network": "Mail",
-      "username": "marcosklender",
-      "url": "mailto:marcosklender@gmail.com"
+      "username": "dumitrw",
+      "url": "mailto:contact@dumitrw.ro"
     },
     {
       "network": "Link",
       "username": "JSONLinks",
-      "url": "https://jsonlinks.netlify.app/templates"
+      "url": "https://dumitrw.ro"
     }
   ],
   "featured": [
@@ -56,24 +46,16 @@
   ],
   "buttons": [
     {
-      "network": "LinkedIn",
-      "url": "https://www.linkedin.com/in/marcosklender/?locale=en_US",
-      "title": "Let's connect on LinkedIn",
-      "textColor": "#FFF",
-      "backgroundColor": "#000",
-      "borderRadius": ".75rem"
-    },
-    {
       "network": "Instagram",
-      "url": "https://www.instagram.com/marcosklender",
-      "title": "Follow me on Instagram",
+      "url": "https://www.instagram.com/Dumitrw.png",
+      "title": "Instagram",
       "textColor": "#FFF",
       "backgroundColor": "#000",
       "borderRadius": ".75rem"
     },
     {
       "network": "Mail",
-      "url": "mailto:marcosklender@gmail.com",
+      "url": "mailto:contact@dumitrw.ro",
       "title": "Contact me anytime",
       "textColor": "#FFF",
       "backgroundColor": "#000",
@@ -81,7 +63,7 @@
     },
     {
       "network": "Link",
-      "url": "https://jsonlinks.netlify.app/templates",
+      "url": "https://dumitrw.ro",
       "title": "See more templates",
       "textColor": "#FFF",
       "backgroundColor": "#000",
@@ -89,7 +71,7 @@
     }
   ],
   "footer": {
-    "copyright": "Made with 🍺 by MarcosKlender 🇪🇨",
-    "url": "https://marcosklender.com"
+    "copyright": "Inapoi la site.",
+    "url": "https://dumitrw.ro"
   }
 }
