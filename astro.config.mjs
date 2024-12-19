@@ -1,4 +1,4 @@
 import { defineConfig } from 'astro/config';
 
-// https://astro.build/config
+// https://eu.dumitrw.ro
 export default defineConfig({});

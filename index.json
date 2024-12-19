@@ -1,17 +1,17 @@
 {
   "html": {
     "lang": "en",
-    "title": "Marcos Carrasco",
-    "description": "Follow me on all my socials",
-    "favicon": "/favicon.svg"
+    "title": "Link-uri",
+    "description": "<3",
+    "favicon": "/logo.png"
   },
   "background": {
     "firstColor": "#454281",
     "secondColor": "#B38AC2"
   },
   "header": {
-    "alt": "Linkuri",
-    "title": "eu, Dima",
+    "alt": "link-uri",
+    "title": "eu, dima",
     "description": "prietenul tau cel mai bun",
     "textColor": "white"
   },
@@ -22,15 +22,16 @@
       "username": "dumitrw.png",
       "url": "https://www.instagram.com/dumitrw.png"
     },
+
     {
-      "network": "Mail",
-      "username": "dumitrw",
-      "url": "mailto:contact@dumitrw.ro"
+      "network": "Spotify",
+      "username": "JSONLinks",
+      "url": "https://open.spotify.com/user/yjfc0l1s0djjjlftt96q6gwld"
     },
     {
-      "network": "Link",
+      "network": "YouTube",
       "username": "JSONLinks",
-      "url": "https://dumitrw.ro"
+      "url": "https://www.youtube.com/@dumitrw"
     }
   ],
   "featured": [
@@ -45,26 +46,28 @@
     }
   ],
   "buttons": [
+
+
     {
-      "network": "Instagram",
-      "url": "https://www.instagram.com/Dumitrw.png",
-      "title": "Instagram",
-      "textColor": "#FFF",
-      "backgroundColor": "#000",
-      "borderRadius": ".75rem"
-    },
-    {
-      "network": "Mail",
-      "url": "mailto:contact@dumitrw.ro",
-      "title": "Contact me anytime",
+      "network": "Discord",
+      "url": "https://discord.com/invite/JXTxD3gy9r",
+      "title": "Server Discord",
       "textColor": "#FFF",
       "backgroundColor": "#000",
       "borderRadius": ".75rem"
     },
     {
       "network": "Link",
-      "url": "https://dumitrw.ro",
-      "title": "See more templates",
+      "url": "https://steamcommunity.com/id/fvckyxu",
+      "title": "Profil Steam",
+      "textColor": "#FFF",
+      "backgroundColor": "#000",
+      "borderRadius": ".75rem"
+    },
+    {
+      "network": "Link",
+      "url": "https://www.tipeeestream.com/dumitrw/donation",
+      "title": "Donatie TipeeeStream",
       "textColor": "#FFF",
       "backgroundColor": "#000",
       "borderRadius": ".75rem"
