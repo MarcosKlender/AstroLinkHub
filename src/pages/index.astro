@@ -21,13 +21,33 @@ import Footer from "@/components/sections/Footer.astro";
   
   </main>
 </Layout>
-<img src="https://lanyard.cnrad.dev/api/268156620050006017" 
+<!-- <img src="https://lanyard.cnrad.dev/api/268156620050006017" 
      alt="status" 
      style="display: block; margin: auto; max-width: 50%; height: auto; opacity: 1;">
+-->
+  
 
-     ---
+     <img src="https://lanyard.cnrad.dev/api/268156620050006017" 
+     alt="status" 
+     class="responsive-image">
 
-    
+<style>
+  .responsive-image {
+    display: block;
+    margin: auto;
+    max-width: 100%; /* Ocupă întreaga lățime a containerului */
+    height: auto;
+  }
+
+  @media (min-width: 768px) {
+    .responsive-image {
+      max-width: 50%; /* Pe ecrane mari, limitează imaginea la 50% din lățime */
+    }
+  }
+</style>
+
+---
+
 <Layout title="link-uri">
   <main>
 
