@@ -71,39 +71,7 @@
       "textColor": "#FFF",
       "backgroundColor": "#000",
       "borderRadius": ".75rem"
-    },
-        {
-      "network": "Link",
-      "url": "https://facebook.com",
-      "title": "D2",
-      "textColor": "#FFF",
-      "backgroundColor": "#000",
-      "borderRadius": ".75rem"
-        },
-        {
-      "network": "Link",
-      "url": "https://google.com",
-      "title": "D3",
-      "textColor": "#FFF",
-      "backgroundColor": "#000",
-      "borderRadius": ".75rem"
-        },
-        {
-      "network": "Link",
-      "url": "https://www.tipeeestream.com/dumitrw",
-      "title": "D4",
-      "textColor": "#FFF",
-      "backgroundColor": "#000",
-      "borderRadius": ".75rem"
-        },
-        {
-      "network": "Link",
-      "url": "https://www.tipeeestream.com/",
-      "title": "D5",
-      "textColor": "#FFF",
-      "backgroundColor": "#000",
-      "borderRadius": ".75rem"
-        }
+    }
   ],
   "footer": {
     "copyright": "Inapoi la dumitrw.ro",
