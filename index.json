@@ -103,7 +103,7 @@
       "textColor": "#FFF",
       "backgroundColor": "#000",
       "borderRadius": ".75rem"
-        },
+        }
   ],
   "footer": {
     "copyright": "Inapoi la dumitrw.ro",
