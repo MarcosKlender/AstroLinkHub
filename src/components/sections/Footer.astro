@@ -83,22 +83,5 @@ footer:hover a {
   .button:hover {
     background: #FFF;
     background-color: #222222;
-  }---
-import { footer } from "index.json";
-import Section from "@/components/Section.astro";
-
-const { copyright, url } = footer;
----
-
-<Section>
-  <footer>
-    <a
-      class="button"
-      href={url}
-      title={`${copyright}`}
-      rel="noopener noreferrer"
-    >
-      {copyright}
-    </a>
-  </footer>
+  }
 </style>
