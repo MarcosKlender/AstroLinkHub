@@ -19,20 +19,18 @@ const { firstColor, secondColor } = background;
   </head>
   <body>
     <div id="overlay">
-      <img id="logo" src="/public/logo.png" alt="Logo" />
+      <img id="logo" src="logoUrl.src" alt="Logo" />
     </div>
     <slot />
     <script>
-      document.addEventListener("DOMContentLoaded", () => {
-        const overlay = document.getElementById("overlay");
-        if (overlay) {
-          overlay.addEventListener("animationend", () => {
-            overlay.style.display = "none"; // Ascunde overlay-ul
-            overlay.remove(); // Elimină complet overlay-ul din DOM
-          });
-        }
-      });
-    </script>
+     document.addEventListener("DOMContentLoaded", () => {
+  const overlay = document.getElementById("overlay");
+  if (overlay) {
+    overlay.addEventListener("animationend", () => {
+      overlay.remove(); // Elimină complet overlay-ul din DOM
+    });
+  }
+});    </script>
   </body>
 </html>
 <style is:global define:vars={{ firstColor, secondColor }}>
@@ -99,7 +97,7 @@ const { firstColor, secondColor } = background;
     display: flex;
     justify-content: center;
     align-items: center;
-    animation: fadeOut 3s ease-in-out forwards; /* Creștem durata la 3s */
+      animation: fadeOut 3s cubic-bezier(0.25, 0.1, 0.25, 1) forwards; /* Creștem durata la 3s */
     animation-delay: 1s; /* Adăugăm o pauză de 1s */
   }
   #logo {
