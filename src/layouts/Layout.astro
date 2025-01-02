@@ -18,99 +18,61 @@ const { firstColor, secondColor } = background;
     <title>{title}</title>
   </head>
   <body>
-<div id="overlay">
-  <img id="logo" src={logoUrl} alt="Logo" />
-</div>
+    <div id="overlay">
+      <img id="logo" src={logoUrl} alt="Logo" />
+    </div>
     <slot />
-<script>
-  document.addEventListener("DOMContentLoaded", () => {
-    const overlay = document.getElementById("overlay");
-    overlay.addEventListener("animationend", () => {
-      overlay.style.display = "none";
-    });
-  });
-</script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const overlay = document.getElementById("overlay");
+        overlay.addEventListener("animationend", () => {
+          overlay.style.display = "none";
+        });
+      });
+    </script>
   </body>
 </html>
 <style is:global define:vars={{ firstColor, secondColor }}>
   @import url("https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap");
 
-body, html {
-  overflow: hidden;
-  background: #121212;
-}
-#overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: black;
-  z-index: 9999;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  animation: fadeOut 2s cubic-bezier(0.25, 0.1, 0.25, 1) forwards;
-}
-#logo {
-  width: 100px; /* Ajustează dimensiunea după preferințe */
-  opacity: 0;
-  animation: blink 1s ease-in-out 2;
-}
-@keyframes fadeOut {
-  0% { opacity: 1; }
-  100% { opacity: 0; }
-}
-@keyframes blink {
-  0%, 100% { opacity: 0; }
-  50% { opacity: 1; }
-}
   html {
     font-family: "Onest", sans-serif;
   }
   body {
     cursor: url('/Kitty.cur'), auto;
+    overflow: hidden;
+    background: #121212;
   }
- 
   body,
   figure {
     background: black;
     min-height: 100vh;
     width: 100%;
     margin: 0;
-    padding: 2rem 0 2rem 0;
+    padding: 2rem 0;
     margin-left: auto;
     margin-right: auto;
-  
   }
-
   a {
     text-decoration: none;
+    cursor: url('/Kitty.cur'), pointer;
   }
-
-  a {
-  cursor: url('/Kitty.cur'), pointer;
-}
-
   ul {
     list-style: none;
     margin: 0;
     padding: 0;
   }
-
   *,
   *::before,
   *::after {
     box-sizing: border-box;
   }
-
   h1,
   h2,
   h3,
   h4 {
     margin: 0;
   }
-
   p {
     color: #888;
     font-size: 0.8rem;
@@ -118,10 +80,35 @@ body, html {
     margin: 0;
     text-wrap: pretty;
   }
-
   @media only screen and (max-width: 768px) {
     body {
       width: 80%;
     }
+  }
+  #overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fadeOut 2s cubic-bezier(0.25, 0.1, 0.25, 1) forwards;
+  }
+  #logo {
+    width: 100px; /* Ajustează dimensiunea după preferințe */
+    opacity: 0;
+    animation: blink 1s ease-in-out 2;
+  }
+  @keyframes fadeOut {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+  @keyframes blink {
+    0%, 100% { opacity: 0; }
+    50% { opacity: 1; }
   }
 </style>
