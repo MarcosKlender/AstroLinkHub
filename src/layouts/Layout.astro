@@ -1,6 +1,5 @@
 ---
 import { html, background } from "index.json";
-import logoUrl from '../../public/logo.png';
 
 const { lang, title, description } = html;
 const { firstColor, secondColor } = background;
@@ -18,7 +17,7 @@ const { firstColor, secondColor } = background;
   </head>
   <body>
     <div id="overlay">
-      <img id="logo" src={logoUrl.src} alt="Logo" />
+      <img id="logo" src="/logo.png" alt="Logo" />
     </div>
     <slot />
     <script>
@@ -26,8 +25,8 @@ const { firstColor, secondColor } = background;
         const overlay = document.getElementById("overlay");
         if (overlay) {
           overlay.addEventListener("animationend", () => {
-            overlay.remove(); // Eliminăm complet overlay-ul din DOM
-            document.body.style.overflow = "auto"; // Permitem scroll și interacțiuni
+            overlay.remove(); // Eliminăm overlay-ul complet din DOM
+            document.body.style.overflow = "auto"; // Activăm scroll-ul
           });
         }
       });
@@ -99,6 +98,7 @@ const { firstColor, secondColor } = background;
     align-items: center;
     animation: fadeOut 3s cubic-bezier(0.25, 0.1, 0.25, 1) forwards;
     animation-delay: 1s;
+    pointer-events: none; /* Dezactivează interacțiunea în timpul fade-out */
   }
   #logo {
     width: 100px;
