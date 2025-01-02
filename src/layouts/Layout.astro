@@ -26,7 +26,8 @@ const { firstColor, secondColor } = background;
         const overlay = document.getElementById("overlay");
         if (overlay) {
           overlay.addEventListener("animationend", () => {
-            overlay.remove();
+            overlay.remove(); // Eliminăm complet overlay-ul din DOM
+            document.body.style.overflow = "auto"; // Permitem scroll și interacțiuni
           });
         }
       });
@@ -41,7 +42,7 @@ const { firstColor, secondColor } = background;
   }
   body {
     cursor: url('/Kitty.cur'), auto;
-    overflow: hidden;
+    overflow: hidden; /* Overflow ascuns inițial */
     background: #121212;
   }
   body,
