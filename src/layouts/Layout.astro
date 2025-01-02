@@ -1,6 +1,6 @@
 ---
 import { html, background } from "index.json";
-import logoUrl from '../../public/favicon.svg';
+import logoUrl from '../../public/logo.png';
 
 const { lang, title, description, favicon } = html;
 const { firstColor, secondColor } = background;
@@ -12,14 +12,14 @@ const { firstColor, secondColor } = background;
     <meta charset="UTF-8" />
     <meta name="description" content={`${description}`} />
     <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/svg+xml" href={`${favicon}`} />
+    <link rel="icon" type="image/png" href="/public/logo.png" />
     <meta name="generator" content={Astro.generator} />
     <meta name="theme-color" content={`${firstColor}`} />
     <title>{title}</title>
   </head>
   <body>
     <div id="overlay">
-      <img id="logo" src={logoUrl.src} alt="Logo" />
+      <img id="logo" src="/public/logo.png" alt="Logo" />
     </div>
     <slot />
     <script>
@@ -27,7 +27,8 @@ const { firstColor, secondColor } = background;
         const overlay = document.getElementById("overlay");
         if (overlay) {
           overlay.addEventListener("animationend", () => {
-            overlay.style.display = "none";
+            overlay.style.display = "none"; // Ascunde overlay-ul
+            overlay.remove(); // Elimină complet overlay-ul din DOM
           });
         }
       });
@@ -98,12 +99,14 @@ const { firstColor, secondColor } = background;
     display: flex;
     justify-content: center;
     align-items: center;
-    animation: fadeOut 2s cubic-bezier(0.25, 0.1, 0.25, 1) forwards;
+    animation: fadeOut 3s ease-in-out forwards; /* Creștem durata la 3s */
+    animation-delay: 1s; /* Adăugăm o pauză de 1s */
   }
   #logo {
     width: 100px; /* Ajustează dimensiunea după preferințe */
     opacity: 0;
-    animation: blink 1s ease-in-out 2;
+    animation: blink 2s ease-in-out 2;
+    animation-delay: 1s; /* Sincronizează animația cu delay-ul */
   }
   @keyframes fadeOut {
     0% { opacity: 1; }
