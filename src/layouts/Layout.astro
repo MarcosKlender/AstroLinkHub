@@ -19,15 +19,17 @@ const { firstColor, secondColor } = background;
   </head>
   <body>
     <div id="overlay">
-      <img id="logo" src={logoUrl} alt="Logo" />
+      <img id="logo" src={logoUrl.src} alt="Logo" />
     </div>
     <slot />
     <script>
       document.addEventListener("DOMContentLoaded", () => {
         const overlay = document.getElementById("overlay");
-        overlay.addEventListener("animationend", () => {
-          overlay.style.display = "none";
-        });
+        if (overlay) {
+          overlay.addEventListener("animationend", () => {
+            overlay.style.display = "none";
+          });
+        }
       });
     </script>
   </body>
