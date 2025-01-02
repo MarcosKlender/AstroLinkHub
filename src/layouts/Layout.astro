@@ -2,24 +2,23 @@
 import { html, background } from "index.json";
 import logoUrl from '../../public/logo.png';
 
-const { lang, title, description, favicon } = html;
+const { lang, title, description } = html;
 const { firstColor, secondColor } = background;
 ---
 
 <!doctype html>
-<html lang={`${lang}`}>
+<html lang={lang}>
   <head>
     <meta charset="UTF-8" />
-    <meta name="description" content={`${description}`} />
+    <meta name="description" content={description} />
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/png" href="/logo.png" />
-    <meta name="generator" content={Astro.generator} />
-    <meta name="theme-color" content={`${firstColor}`} />
+    <meta name="theme-color" content={firstColor} />
     <title>{title}</title>
   </head>
   <body>
     <div id="overlay">
-      <img id="logo" src={logoUrl} alt="Logo" />
+      <img id="logo" src={logoUrl.src} alt="Logo" />
     </div>
     <slot />
     <script>
@@ -27,7 +26,7 @@ const { firstColor, secondColor } = background;
         const overlay = document.getElementById("overlay");
         if (overlay) {
           overlay.addEventListener("animationend", () => {
-            overlay.remove(); // Elimină complet overlay-ul din DOM
+            overlay.remove();
           });
         }
       });
@@ -80,7 +79,6 @@ const { firstColor, secondColor } = background;
     font-size: 0.8rem;
     line-height: 1.5;
     margin: 0;
-    text-wrap: pretty;
   }
   @media only screen and (max-width: 768px) {
     body {
@@ -102,7 +100,7 @@ const { firstColor, secondColor } = background;
     animation-delay: 1s;
   }
   #logo {
-    width: 100px; /* Ajustează dimensiunea după preferințe */
+    width: 100px;
     opacity: 0;
     animation: blink 2s ease-in-out 2;
     animation-delay: 1s;
