@@ -57,7 +57,8 @@
       "borderRadius": ".75rem"
     },
     {
-      "network": "Link",
+
+      "network": "Steam",
       "url": "https://steamcommunity.com/id/fvckyxu",
       "title": "Profil Steam",
       "textColor": "#FFF",
