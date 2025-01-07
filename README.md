@@ -4,7 +4,7 @@
 
 ![Astro](https://astro.build/assets/press/astro-icon-light-gradient.svg)
 
-[![Available at](https://img.shields.io/badge/Available%20at-Astro%20Themes-purple?style=for-the-badge&link=https://astro.build/themes/details/astrolinkhub/)](https://astro.build/themes/details/astrolinkhub/)
+[![Available at](https://img.shields.io/badge/Available%20at-Astro%20Themes-purple?style=for-the-badge&link=https://astro.build/themes/details/astrolinkhub/)](https://astro.build/themes/details/astrolinkhub)
 
 </div>
 
@@ -50,6 +50,9 @@ Open source links page, customizable via JSON. Made with Astro 4.
 
 ## About The Project
 
+> [!IMPORTANT]
+> I'm glad to announce that this project is available on [Astro Themes](https://astro.build/themes/details/astrolinkhub)! 🚀
+
 For a while I was thinking about how popular link pages have become, both for companies and individuals. I've never liked the "free" solutions that many companies provide where they self-promote on every page you create.
 
 That's exactly why I created AstroLinkHub! With this template you will be able to:
@@ -61,9 +64,6 @@ That's exactly why I created AstroLinkHub! With this template you will be able t
 
 
 ## Getting Started
-
-> [!IMPORTANT]
-> I'm glad to announce that this project is available on [Astro Themes!](https://astro.build/themes/details/astrolinkhub/) 🚀
 
 ### Prerequisites
 
@@ -109,6 +109,9 @@ The best part of AstroLinkHub is that you can modify every aspect of the website
 
 ### Icons
 
+> [!NOTE]
+> You can add more open-source icons from: [Tabler Icons](https://tabler.io/icons)
+
 Just edit the key `network` with any of the following values (case-sensitive):
 
 - Discord
@@ -126,9 +129,6 @@ Just edit the key `network` with any of the following values (case-sensitive):
 - WhatsApp
 - X
 - YouTube
-
-> [!NOTE]
-> If you need more open-source icons, visit: [Tabler Icons](https://tabler.io/icons)
 
 <p align="right"><a href="#readme-top">Back to top ⬆️</a></p>
 
