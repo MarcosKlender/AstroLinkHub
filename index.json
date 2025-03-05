@@ -38,9 +38,9 @@
       "url": "mailto:marcosklender@gmail.com"
     },
     {
-      "network": "Link",
-      "username": "JSONLinks",
-      "url": "https://jsonlinks.netlify.app/templates"
+      "network": "AstroLogo",
+      "username": "Astro Themes",
+      "url": "https://astro.build/themes/author/1479"
     }
   ],
   "featured": [
@@ -80,16 +80,16 @@
       "borderRadius": ".75rem"
     },
     {
-      "network": "Link",
-      "url": "https://jsonlinks.netlify.app/templates",
-      "title": "See more templates",
+      "network": "AstroLogo",
+      "url": "https://astro.build/themes/author/1479",
+      "title": "See more Astro Themes",
       "textColor": "#FFF",
       "backgroundColor": "#000",
       "borderRadius": ".75rem"
     }
   ],
   "footer": {
-    "copyright": "Made with 🍺 by MarcosKlender 🇪🇨",
-    "url": "https://marcosklender.com"
+    "copyright": "Made with 🍺 by MarcosKlender",
+    "url": "https://warpportfolio.netlify.app"
   }
 }

@@ -114,6 +114,7 @@ The best part of AstroLinkHub is that you can modify every aspect of the website
 
 Just edit the key `network` with any of the following values (case-sensitive):
 
+- AstroLogo
 - Discord
 - Facebook
 - GitHub
