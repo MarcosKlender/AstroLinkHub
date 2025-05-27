@@ -23,27 +23,4 @@ Open source links page, customizable via JSON. Made with Astro 4.
 
 ![AstroLinkHub Screenshot](/public/screenshot.webp)
 
-
-## Table of Contents
-
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#json">JSON</a>
-      <ul>
-        <li><a href="#icons">Icons</a></li>
-      </ul>
-    </li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-  </ol> 
 <p align="right"><a href="#readme-top">Back to top ⬆️</a></p>
