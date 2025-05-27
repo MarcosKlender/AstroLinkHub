@@ -10,12 +10,22 @@ const { firstColor, secondColor } = background;
   <head>
     <meta charset="UTF-8" />
     <meta name="description" content={description} />
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/png" href="/logo.png" />
     <meta name="theme-color" content={firstColor} />
     <title>{title}</title>
+  <!-- Link către manifest -->
+  <link rel="manifest" href="/manifest.json" />
+  <!-- Alte taguri deja existente aici... -->
   </head>
   <body>
+         <script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/sw.js')
+      .then(() => console.log("Service worker înregistrat"))
+      .catch(err => console.error("Eroare la înregistrarea SW:", err));
+  }
+        </script>
     <div id="overlay">
       <img id="logo" src="/logo.png" alt="Logo" />
     </div>
