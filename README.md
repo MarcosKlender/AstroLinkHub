@@ -21,6 +21,4 @@ Open source links page, customizable via JSON. Made with Astro 4.
 
 </div>
 
-![AstroLinkHub Screenshot](/public/screenshot.webp)
-
 <p align="right"><a href="#readme-top">Back to top ⬆️</a></p>
