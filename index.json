@@ -7,7 +7,7 @@
     "ogType": "website",
     "ogSiteName": "MarcosKlender",
     "ogTitle": "AstroLinkHub by MarcosKlender",
-    "ogDescription": "Open source links page, made with Astro!",
+    "ogDescription": "Open source links page, customizable via JSON. Made with Astro!",
     "ogUrl": "https://astrolinkhub.netlify.app",
     "ogImage": "https://astrolinkhub.netlify.app/og-img.jpg"
   },
