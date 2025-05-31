@@ -3,7 +3,13 @@
     "lang": "en",
     "title": "Marcos Carrasco",
     "description": "Follow me on all my socials",
-    "favicon": "/favicon.svg"
+    "favicon": "/favicon.svg",
+    "ogType": "website",
+    "ogSiteName": "MarcosKlender",
+    "ogTitle": "AstroLinkHub by MarcosKlender",
+    "ogDescription": "Open source links page, made with Astro!",
+    "ogUrl": "https://astrolinkhub.netlify.app",
+    "ogImage": "https://astrolinkhub.netlify.app/og-img.jpg"
   },
   "background": {
     "firstColor": "#454281",

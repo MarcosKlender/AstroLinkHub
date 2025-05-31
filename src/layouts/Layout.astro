@@ -1,7 +1,19 @@
 ---
 import { html, background } from "index.json";
 
-const { lang, title, description, favicon } = html;
+const {
+  lang,
+  title,
+  description,
+  favicon,
+  ogType,
+  ogSiteName,
+  ogTitle,
+  ogDescription,
+  ogUrl,
+  ogImage,
+} = html;
+
 const { firstColor, secondColor } = background;
 ---
 
@@ -14,6 +26,12 @@ const { firstColor, secondColor } = background;
     <link rel="icon" type="image/svg+xml" href={`${favicon}`} />
     <meta name="theme-color" content={`${firstColor}`} />
     <title>{title}</title>
+    <meta property="og:type" content={ogType} />
+    <meta property="og:site_name" content={ogSiteName} />
+    <meta property="og:title" content={ogTitle} />
+    <meta property="og:description" content={ogDescription} />
+    <meta property="og:url" content={ogUrl} />
+    <meta property="og:image" content={ogImage} />
   </head>
   <body>
     <slot />
