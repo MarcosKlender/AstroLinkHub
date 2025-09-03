@@ -124,6 +124,7 @@ Just edit the key `network` with any of the following values (case-sensitive):
 - Mail
 - Map
 - Medium
+- SoundCloud
 - Spotify
 - TikTok
 - Twitch
