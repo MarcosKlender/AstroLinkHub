@@ -5,25 +5,29 @@ import Section from "@/components/Section.astro";
 ---
 
 <Section>
-  <div class="container">
+  <div class="container" role="list">
     {
       buttons.map(
         ({ network, url, title, textColor, backgroundColor, borderRadius }) => {
           const Icon = getIcon(network);
 
           return (
-            <a
-              href={url}
-              class="button"
-              target="_blank"
-              style={`
+            <div role="listitem">
+              <a
+                href={url}
+                class="button"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={title}
+                style={`
                 background-color: ${backgroundColor};
                 color:${textColor};
                 border-radius:${borderRadius};`}
-            >
-              <Icon />
-              {title}
-            </a>
+              >
+                {Icon && <Icon />}
+                {title}
+              </a>
+            </div>
           );
         }
       )
@@ -53,7 +57,7 @@ import Section from "@/components/Section.astro";
   }
 
   .button:hover {
-    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 16px;
     transform: translateY(-2px);
   }
 

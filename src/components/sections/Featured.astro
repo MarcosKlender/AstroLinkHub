@@ -5,7 +5,7 @@ import Section from "@/components/Section.astro";
 ---
 
 <Section>
-  <div class="container">
+  <div class="container" role="list">
     {
       featured.map(
         ({
@@ -20,11 +20,14 @@ import Section from "@/components/Section.astro";
           const Icon = getIcon(network);
 
           return (
-            <a
-              href={url}
-              class="button"
-              target="_blank"
-              style={`
+            <div role="listitem">
+              <a
+                href={url}
+                class="button"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={title}
+                style={`
                 background-color: ${backgroundColor};
                 color:${textColor};
                 border-radius:${borderRadius};
@@ -32,10 +35,11 @@ import Section from "@/components/Section.astro";
                 background-size: cover;
                 background-position: center;
                 `}
-            >
-              <Icon />
-              {title}
-            </a>
+              >
+                {Icon && <Icon />}
+                {title}
+              </a>
+            </div>
           );
         }
       )

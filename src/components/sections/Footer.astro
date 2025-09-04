@@ -6,13 +6,13 @@ const { copyright, url } = footer;
 ---
 
 <Section>
-  <footer>
+  <footer role="contentinfo">
     <a
-      class="button"
       href={url}
-      title={`${copyright}`}
+      class="button"
       target="_blank"
       rel="noopener noreferrer"
+      title={copyright}
     >
       {copyright}
     </a>
@@ -37,7 +37,7 @@ const { copyright, url } = footer;
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: #F6F9FE;
+    background: #f6f9fe;
     border-radius: 24px;
     border-style: none;
     box-shadow:
@@ -50,6 +50,7 @@ const { copyright, url } = footer;
     font-size: 0.75rem;
     font-weight: 500;
     text-wrap: balance;
+    width: auto;
     height: 48px;
     line-height: normal;
     max-width: 100%;
@@ -64,12 +65,12 @@ const { copyright, url } = footer;
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
-    width: auto;
     will-change: transform, opacity;
     z-index: 0;
   }
 
   .button:hover {
-    background: #FFF;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 6px 12px;
+    transform: translateY(-2px);
   }
 </style>

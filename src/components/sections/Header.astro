@@ -7,7 +7,14 @@ const { title, description, image, alt, textColor } = header;
 
 <Section>
   <div class="container" style={`color: ${textColor};`}>
-    <img src=`${image}` alt=`${alt}` />
+    <img
+      src={image}
+      alt={alt}
+      width="128"
+      height="128"
+      loading="eager"
+      decoding="async"
+    />
     <h1>{title}</h1>
     <h2>{description}</h2>
   </div>
@@ -29,7 +36,6 @@ const { title, description, image, alt, textColor } = header;
   img {
     aspect-ratio: 1 / 1;
     object-fit: cover;
-    width: 128px;
     border-radius: 16px;
   }
 

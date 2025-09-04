@@ -5,7 +5,7 @@ import Section from "@/components/Section.astro";
 ---
 
 <Section>
-  <div class="container">
+  <div class="container" role="list">
     {
       socials.map(({ network, username, url }) => {
         const Icon = getIcon(network);
@@ -13,11 +13,11 @@ import Section from "@/components/Section.astro";
         return (
           <a
             href={url}
-            aria-label={`Visita el perfil de ${username} en ${network}`}
             target="_blank"
             rel="noopener noreferrer"
+            aria-label={`Find ${username} on ${network}`}
           >
-            <Icon />
+            {Icon && <Icon />}
           </a>
         );
       })
