@@ -21,8 +21,7 @@ Open source links page, customizable via JSON. Made with Astro 4.
 
 </div>
 
-![AstroLinkHub Screenshot](/public/screenshot.webp)
-
+![AstroLinkHub Screenshot](/public/screenshot-2025.webp)
 
 ## Table of Contents
 
@@ -47,7 +46,6 @@ Open source links page, customizable via JSON. Made with Astro 4.
     <li><a href="#license">License</a></li>
   </ol>
 
-
 ## About The Project
 
 > [!IMPORTANT]
@@ -56,12 +54,12 @@ Open source links page, customizable via JSON. Made with Astro 4.
 For a while I was thinking about how popular link pages have become, both for companies and individuals. I've never liked the "free" solutions that many companies provide where they self-promote on every page you create.
 
 That's exactly why I created AstroLinkHub! With this template you will be able to:
+
 - Create your very own links page for FREE.
 - Use the colors you want and give yourself all the credits for it.
-- And most importantly, update it very easily using JSON. 
+- And most importantly, update it very easily using JSON.
 
 <p align="right"><a href="#readme-top">Back to top ⬆️</a></p>
-
 
 ## Getting Started
 
@@ -72,9 +70,9 @@ That's exactly why I created AstroLinkHub! With this template you will be able t
 
 Personally I prefer using `pnpm` instead `npm` and to install it you can use:
 
-  ```sh
-  npm install -g pnpm
-  ```
+```sh
+npm install -g pnpm
+```
 
 ### Installation
 
@@ -91,9 +89,8 @@ Personally I prefer using `pnpm` instead `npm` and to install it you can use:
    ```sh
    pnpm dev
    ```
-   
-<p align="right"><a href="#readme-top">Back to top ⬆️</a></p>
 
+<p align="right"><a href="#readme-top">Back to top ⬆️</a></p>
 
 ## JSON
 
@@ -134,7 +131,6 @@ Just edit the key `network` with any of the following values (case-sensitive):
 
 <p align="right"><a href="#readme-top">Back to top ⬆️</a></p>
 
-
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -143,7 +139,6 @@ If you have a suggestion that would make this better, please fork the repo and c
 **Don't forget to give the project a star!** ⭐
 
 <p align="right"><a href="#readme-top">Back to top ⬆️</a></p>
-
 
 ## License
 
