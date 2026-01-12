@@ -1,7 +1,7 @@
 {
   "name": "astrolinkhub",
   "type": "module",
-  "version": "0.0.1",
+  "version": "2.0.0",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -10,9 +10,12 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/check": "^0.8.1",
-    "astro": "^4.11.5",
-    "typescript": "^5.5.3"
+    "@astrojs/check": "^0.9.6",
+    "astro": "^5.16.9",
+    "typescript": "^5.9.3"
   },
-  "packageManager": "pnpm@9.4.0+sha512.f549b8a52c9d2b8536762f99c0722205efc5af913e77835dbccc3b0b0b2ca9e7dc8022b78062c17291c48e88749c70ce88eb5a74f1fa8c4bf5e18bb46c8bd83a"
+  "engines": {
+    "node": ">=22.0.0",
+    "pnpm": ">=10.0.0"
+  }
 }
