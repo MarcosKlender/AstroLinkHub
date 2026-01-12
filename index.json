@@ -1,15 +1,20 @@
 {
   "html": {
-    "lang": "en",
-    "title": "Marcos Carrasco",
-    "description": "Follow me on all my socials",
-    "favicon": "/favicon.svg",
-    "ogType": "website",
-    "ogSiteName": "MarcosKlender",
-    "ogTitle": "AstroLinkHub by MarcosKlender",
-    "ogDescription": "Open source links page, customizable via JSON. Made with Astro!",
-    "ogUrl": "https://astrolinkhub.netlify.app",
-    "ogImage": "https://astrolinkhub.netlify.app/og-img.jpg"
+    "basic": {
+      "lang": "en",
+      "title": "AstroLinkHub by MarcosKlender",
+      "description": "Open source links page, customizable via JSON. Made with Astro!",
+      "favicon": "/favicon.svg",
+      "keywords": "portfolio, developer, astro, web",
+      "author": "Marcos Carrasco",
+      "url": "https://astrolinkhub.netlify.app",
+      "image": "https://astrolinkhub.netlify.app/og-img.jpg",
+      "ogType": "website",
+      "ogSiteName": "MarcosKlender",
+      "twitterCard": "summary_large_image",
+      "twitterSite": "@marcosklender",
+      "twitterCreator": "@marcosklender"
+    }
   },
   "background": {
     "firstColor": "#454281",
@@ -31,12 +36,12 @@
     {
       "network": "LinkedIn",
       "username": "marcosklender",
-      "url": "https://www.linkedin.com/in/marcosklender/?locale=en_US"
+      "url": "https://linkedin.com/in/marcosklender"
     },
     {
       "network": "Instagram",
       "username": "marcosklender",
-      "url": "https://www.instagram.com/marcosklender"
+      "url": "https://instagram.com/marcosklender"
     },
     {
       "network": "Mail",
@@ -62,25 +67,17 @@
   ],
   "buttons": [
     {
-      "network": "LinkedIn",
-      "url": "https://www.linkedin.com/in/marcosklender/?locale=en_US",
-      "title": "Let's connect on LinkedIn",
+      "network": "Star",
+      "url": "https://pageness.com",
+      "title": "Create your own page for FREE",
       "textColor": "#FFF",
       "backgroundColor": "#000",
       "borderRadius": ".75rem"
     },
     {
-      "network": "Instagram",
-      "url": "https://www.instagram.com/marcosklender",
-      "title": "Follow me on Instagram",
-      "textColor": "#FFF",
-      "backgroundColor": "#000",
-      "borderRadius": ".75rem"
-    },
-    {
-      "network": "Mail",
-      "url": "mailto:marcosklender@gmail.com",
-      "title": "Contact me anytime",
+      "network": "OpenSource",
+      "url": "https://marcosklender.com",
+      "title": "See more open source projects",
       "textColor": "#FFF",
       "backgroundColor": "#000",
       "borderRadius": ".75rem"
@@ -88,7 +85,15 @@
     {
       "network": "AstroLogo",
       "url": "https://astro.build/themes/author/1479",
-      "title": "See more Astro Themes",
+      "title": "See more Astro themes like this",
+      "textColor": "#FFF",
+      "backgroundColor": "#000",
+      "borderRadius": ".75rem"
+    },
+    {
+      "network": "LinkedIn",
+      "url": "https://linkedin.com/in/marcosklender",
+      "title": "Let's connect on LinkedIn",
       "textColor": "#FFF",
       "backgroundColor": "#000",
       "borderRadius": ".75rem"

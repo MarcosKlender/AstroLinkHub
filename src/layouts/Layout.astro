@@ -6,13 +6,16 @@ const {
   title,
   description,
   favicon,
+  keywords,
+  author,
+  url,
+  image,
   ogType,
   ogSiteName,
-  ogTitle,
-  ogDescription,
-  ogUrl,
-  ogImage,
-} = html;
+  twitterCard,
+  twitterSite,
+  twitterCreator,
+} = html.basic;
 
 const { firstColor, secondColor } = background;
 ---
@@ -21,17 +24,34 @@ const { firstColor, secondColor } = background;
 <html lang={`${lang}`}>
   <head>
     <meta charset="UTF-8" />
-    <meta name="description" content={`${description}`} />
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href={`${favicon}`} />
     <meta name="theme-color" content={`${firstColor}`} />
+
+    <!-- Basic Meta Tags -->
     <title>{title}</title>
+    <meta name="title" content={title} />
+    <meta name="description" content={`${description}`} />
+    <meta name="keywords" content={keywords} />
+    <meta name="author" content={author} />
+    <link rel="canonical" href={url} />
+
+    <!-- Open Graph -->
     <meta property="og:type" content={ogType} />
     <meta property="og:site_name" content={ogSiteName} />
-    <meta property="og:title" content={ogTitle} />
-    <meta property="og:description" content={ogDescription} />
-    <meta property="og:url" content={ogUrl} />
-    <meta property="og:image" content={ogImage} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={url} />
+    <meta property="og:image" content={image} />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content={twitterCard} />
+    <meta property="twitter:site" content={twitterSite} />
+    <meta property="twitter:creator" content={twitterCreator} />
+    <meta property="twitter:url" content={url} />
+    <meta property="twitter:title" content={title} />
+    <meta property="twitter:description" content={description} />
+    <meta property="twitter:image" content={image} />
   </head>
   <body>
     <slot />
