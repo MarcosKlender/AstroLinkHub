@@ -65,7 +65,7 @@ That's exactly why I created AstroLinkHub! With this template you will be able t
 
 ### Prerequisites
 
-- **Node.js** -> `v18.17.1` or `v20.3.0` or higher. (`v19` is not supported)
+- **Node.js** -> `v22.0.0` or higher.
 - **Visual Studio Code** -> with the [Official Astro Extension](https://marketplace.visualstudio.com/items?itemName=astro-build.astro-vscode).
 
 Personally I prefer using `pnpm` instead `npm` and to install it you can use:
@@ -116,13 +116,14 @@ Just edit the key `network` with any of the following values (case-sensitive):
 - Facebook
 - GitHub
 - Instagram
-- Link
 - LinkedIn
 - Mail
 - Map
 - Medium
+- OpenSource
 - SoundCloud
 - Spotify
+- Star
 - TikTok
 - Twitch
 - WhatsApp

@@ -8,8 +8,10 @@ import LinkedIn from "@/icons/LinkedIn.astro";
 import Mail from "@/icons/Mail.astro";
 import Map from "@/icons/Map.astro";
 import Medium from "@/icons/Medium.astro";
+import OpenSource from "@/icons/OpenSource.astro";
 import SoundCloud from "@/icons/SoundCloud.astro";
 import Spotify from "@/icons/Spotify.astro";
+import Star from "@/icons/Star.astro";
 import TikTok from "@/icons/TikTok.astro";
 import Twitch from "@/icons/Twitch.astro";
 import WhatsApp from "@/icons/WhatsApp.astro";
@@ -27,8 +29,10 @@ const SOCIAL_ICONS: Record<string, any> = {
   Mail,
   Map,
   Medium,
+  OpenSource,
   SoundCloud,
   Spotify,
+  Star,
   TikTok,
   Twitch,
   WhatsApp,
